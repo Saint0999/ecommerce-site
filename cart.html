@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="cart">
+
+
+  <nav class="navbar">
+    <h2>MyStore</h2>
+    <a href="index.html">
+      <button>Home</button>
+    </a>
+  </nav>
+
+    
+  <main class="cart-container">
+
+    
+    <section>
+      <h2 class="cart-heading">Your Cart</h2>
+      
+      <div id="cart-items"></div>
+    </section>
+
+    
+    <aside class="summary">
+      <h3>Order Summary</h3>
+
+      <p>Total: $<span id="total">0</span></p>
+
+      <a href="confirmation.html">
+        <button class="checkout-btn" id="checkout-btn">Proceed To Buy</button>
+      </a>
+    </aside>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
